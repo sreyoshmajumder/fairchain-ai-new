@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.egg-info/
+.env
+
+# Node
+node_modules/
+build/
+.env
+.env.local
+
+# Data files (large CSVs — keep out of git)
+backend/backend/data/**/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.DS_Store
